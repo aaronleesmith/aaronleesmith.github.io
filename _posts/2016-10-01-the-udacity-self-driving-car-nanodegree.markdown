@@ -4,7 +4,7 @@ title: The Udacity Self-driving Car Nanodegree
 date: 2016-10-01 19:34:20.000000000 -07:00
 image: /assets/images/2016/11/Nanodegree.png
 ---
-*Update: [Project 1 post has been added]({{ site.baseurl }}{% post_url 2016-10-15-the-udacity-self-driving-car-nanodegree %}).*
+*Update: [Project 1 post has been added]({{ site.baseurl }}{% post_url 2016-10-15-project-1-lane-finding %}).*
 
 Well, I'm in it now.
 
