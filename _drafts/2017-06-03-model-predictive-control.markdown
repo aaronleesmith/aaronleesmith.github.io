@@ -122,3 +122,8 @@ Eigen::VectorXd polyfit(Eigen::VectorXd xvals, Eigen::VectorXd yvals,
   return result;
 }
 {% endhighlight %}
+
+## Designing sets of linear constraints
+To satisfy step 4 of the steps above, it is necessary to define and solve a linear programming problem. This implementation uses *Ipopt*. In general, to solve this sort of problem the engineer will define a set of constraint and an objective cost function which the solver will attempt to optimize. In our case, we will devise a *cost function* which the solver will attempt to minimize. It must do this without breaking any constraint that are defined.
+
+### Setting up the cost function
