@@ -4,17 +4,18 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "Flippidy-bits"
+title: "Flippidy Bits"
 description: > # this means to ignore newlines until "email:"
    Exploration of computer science, machine learning, mathematics, and more from a perspective of learning and sharing knowledge.
 
 email: aaronsmith1101@gmail.com
 #blog logo
-logo: "/assets/images/df_logo.jpg"
+logo: "/assets/images/fb_logo.png"
+logo_large: "/assets/images/fb_logo_full.png"
 float_logo: true # true, false (default)
 
 # blog cover
-cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+cover: ""
 
 name: Aaron Smith
 author: 'Aaron Smith'
@@ -22,7 +23,7 @@ author_image: "/assets/images/author.jpg"
 
 paginate:	5
 
-url: "http://myblog.***.***" # the base hostname & protocol for your site
+url: "http://blog.flippidybits.com" # the base hostname & protocol for your site
 baseurl: ""
 #used to display twitter cards
 twitter_handle: '@flippidybits'
@@ -61,3 +62,7 @@ social:
 #    share_url:
 #    share_title:
 #    share_link:
+
+  - icon: linkedin
+    url: https://www.linkedin.com/in/aaron-smith-28aa8657/
+    desc: Find me on LinkedIn
