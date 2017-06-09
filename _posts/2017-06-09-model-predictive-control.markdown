@@ -5,7 +5,9 @@ date: 2017-06-09
 image: /assets/images/2016/11/Nanodegree.png
 ---
 
-There are many ways to drive a car -- and I don't mean with your feet. I've explored navigating the Udacity Simulator using a Convolutional Neural Network (CNN), an Unscented Kalman Filter (UKF), and a PID control.
+There are many ways to drive a car -- and I don't mean with your feet. This post explores a new method of following and maintaining a trajectory: model predictive control.
+
+I've explored navigating the Udacity Simulator using a Convolutional Neural Network (CNN), an Unscented Kalman Filter (UKF), and a PID control.
 
 Each of these approaches has its benefits and biases. The CNN approach needs a lot of varied training data and it's easy to overfit on a single track, but it learns by *seeing* the road, which feels like magic. My PID control was heavily reliant on finding optimal tuning parameters, which can often be a chore on its own, but the implementation is quite simple.
 
