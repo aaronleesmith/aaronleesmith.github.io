@@ -30,7 +30,7 @@ For more info, see my [project on github](https://github.com/aaronleesmith/CarND
 # Overview of the MPC approach
 Model Predictive Control takes advantage of very useful information detailing the current position of the vehicle in the global (map) space and it's relation to a target trajectory. This information is sent from the simulator in the form of waypoints -- points that designate where the car *should* be. In a real world scenario, sensor data -- such as GPS, lidar, and radar -- and on-board cameras, combined with localization and image recognition algorithms, would inform the MPC. Therefore, the MPC controller is one part of a broad and robust pipeline.
 
-The overall goal is to get the vehicle to plan ahead at every timestep and then take the best course of action to correct its trajectory. Choosing the number of steps and the time between steps is an open question which varies depending on the needs of the vehicle and the circumstances of the road **TODO: ADD SOME MORE HERE**. The variables $N$ and $dt$ are used to specify steps and timestep size respectively.
+The overall goal is to get the vehicle to plan ahead at every timestep and then take the best course of action to correct its trajectory. Choosing the number of steps and the time between steps is an open question which varies depending on the needs of the vehicle and the circumstances of the road. The variables $N$ and $dt$ are used to specify steps and timestep size respectively.
 
 After planning ahead, the vehicle will only consider the very next (or sometimes average the next few) trajectory points and attempt to correct its orientation and velocity to drive along the safest path. 
 
@@ -45,9 +45,6 @@ The bird's eye view of the algorithm is:
 7. Repeat.
 
 Before writing any code, it's important to understand the underlying motion model and state which evolves over time.
-
-
-**TODO: Go into detail on what cross track error is**
 
 ## Kinematic Models vs. Dynamic models
 
